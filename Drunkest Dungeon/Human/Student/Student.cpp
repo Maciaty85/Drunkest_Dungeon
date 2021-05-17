@@ -2,8 +2,8 @@
 #include <iostream>
 
 Student::Student(std::string obj_name, int obj_health, int stat_it, int stat_m, int stat_p, int stat_s)
+    : Human(obj_name, obj_health)
 {
-    Student::Human(obj_name, obj_health);
     it = stat_it;
     maths = stat_m;
     psyche = stat_p;

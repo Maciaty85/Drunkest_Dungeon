@@ -8,6 +8,8 @@ class Location
     int current_room;
 
     public:
+    Location();
+    
     Location( int size );
 
     int get_length( );

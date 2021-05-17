@@ -16,6 +16,8 @@ private:
     bool alive;
 
 public:
+    Student();
+
     Student(std::string obj_name, int obj_health, int stat_it, int stat_m, int stat_p, int stat_s);
 
     int get_it();
